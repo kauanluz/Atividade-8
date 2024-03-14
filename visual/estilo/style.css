@@ -19,38 +19,4 @@ body{
     display: flex;
 
 }
-#f1{
-    background-color: rgb(55, 72, 223);
-    color: rgb(0, 0, 0);
-    line-height: 1.5em;
-    border-radius: 50px;
-    
-}
-#f2{
-    background-color: rgb(55, 72, 223);
-    color: rgb(0, 0, 0);
-    line-height: 1.5em;
-    border-radius: 50px;
-    
-}
-#f3{
-    background-color: rgb(55, 72, 223);
-    color: rgb(0, 0, 0);
-    line-height: 1.5em;
-    border-radius: 50px;
-    
-}
-#f4{
-    background-color: rgb(55, 72, 223);
-    color: rgb(0, 0, 0);
-    line-height: 1.5em;
-    border-radius: 50px;
-    
-}
-#f5{
-    background-color: rgb(55, 72, 223);
-    color: rgb(0, 0, 0);
-    line-height: 1.5em;
-    border-radius: 50px;
-    
-}
+
