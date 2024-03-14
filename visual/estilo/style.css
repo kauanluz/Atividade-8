@@ -10,14 +10,14 @@ body{
     color: rgb(255, 255, 255);
     border-radius: 50px;
     width: 150px;
-    height:80px ;
+    height: 30px ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 #robo{
     display: flex;
-
+    
 }
 #f1{
     background-color: rgb(55, 72, 223);
@@ -53,4 +53,14 @@ body{
     line-height: 1.5em;
     border-radius: 50px;
     
+}
+#s2{
+   text-align: center;
+   display: flex;
+}
+#p1{
+    display: flex;
+    text-align: center;
+    height: 200px;
+    width: 100px;
 }
