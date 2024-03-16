@@ -42,7 +42,7 @@ body{
 }
 
 #s1{
-    background-color: aqua;
+    background-color: rgb(192, 218, 253);
     text-align: start;
     margin: 10px;
     height: 310px;
@@ -51,7 +51,7 @@ body{
 
 }
 #s2{
-    background-color: rgb(179, 255, 0);
+    background-color: rgb(192, 218, 253);
     margin: 10px;
     height: fit-content;
     width: 700px;
@@ -99,5 +99,58 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-
+}
+#s3{
+    background-color: rgb(192, 218, 253);
+    text-align: start;
+    margin: 10px;
+    height: 310px;
+    width: 1200px;
+    border-radius: 15px;
+}
+#recom{
+    line-height: 1.5em;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 200px;
+    height: 10%;
+    width: 100%;
+}
+#mate{
+    display: flex;
+    border: 30px;
+    height: 80%;
+    width: 70%;
+    align-content: stretch;
+}
+.proce{
+    background-color: rgb(55, 202, 55);
+    color: white;
+   border-radius: 10%;
+   width: 140px;
+   height: 40px;
+   border-color: rgb(55, 202, 55);
+}
+#nega{
+    background-color: rgb(219, 40, 40);
+    color: white;
+    border-radius: 10%;
+    width: 140px;
+    height: 40px;
+    border-color: rgb(219, 40, 40);
+}
+#analise{
+    background-color: rgb(255, 230, 0);
+    color: white;
+    border-radius: 10%;
+    width: 140px;
+    height: 40px;
+    border-color: rgb(255, 230, 0)
+}
+#s4{
+    background-color: rgb(192, 218, 253);
+    margin: 10px;
+    height: fit-content;
+    width: 700px;
+    border-radius: 15px;
 }
