@@ -47,6 +47,7 @@ body{
     height: 310px;
     width: 1200px;
     border-radius: 15px;
+
 }
 #s2{
     background-color: rgb(192, 218, 253);
@@ -54,6 +55,7 @@ body{
     height: fit-content;
     width: 700px;
     border-radius: 15px;
+    
     
 }
 #p1{
@@ -185,4 +187,51 @@ body{
 }
 #msg2{
     text-align: end;
+}
+
+.nome{
+    text-align: left;
+    color: black;
+}
+
+#s5{
+    background-color: rgb(192, 218, 253);
+    text-align: start;
+    margin: 10px;
+    height: 310px;
+    width: 1200px;
+    border-radius: 15px;
+}
+
+#s6{
+    background-color: rgb(192, 218, 253);
+    margin: 10px;
+    height: fit-content;
+    width: 700px;
+    border-radius: 15px;
+}
+#mate2{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    border: 70px;
+    height: 50%;
+    width: 50%;
+    align-content: stretch;
+}
+#mate2 img{
+    display: flex;
+    margin: 10px;
+    border: 10px;
+    height: 50%;
+    width: 80%;
+    align-content: stretch;
+    border: 8px solid white;
+    border-color: white;
+}
+
+.homem{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
 }
