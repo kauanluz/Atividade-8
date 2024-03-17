@@ -55,9 +55,8 @@ body{
     height: fit-content;
     width: 700px;
     border-radius: 15px;
-    
-    
 }
+
 #p1{
     display: flex;
     margin-left: 35px; 
