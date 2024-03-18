@@ -3,6 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(55, 72, 223);
     background-color: rgb(255, 255, 255);
+    
 }
 #oi{
     text-align: center;
@@ -25,9 +26,15 @@ body{
     width: 80%;
     
 }
-#direita{
-    justify-content: space-around;
+.direita{
+    background-color: rgb(192, 218, 253);
+    text-align: start;
+    margin: 10px;
+    height: 510px;
+    width: 1700px;
+    border-radius: 15px;
 }
+
 .falas{
     background-color: rgb(55, 72, 223);
     color: rgb(255, 255, 255);
@@ -41,25 +48,31 @@ body{
 }
 
 #s1{
-    background-color: rgb(192, 218, 253);
-    text-align: start;
-    margin: 10px;
-    height: 310px;
-    width: 1200px;
-    border-radius: 15px;
+    display: flex;
 
 }
-#s2{
+#s2{ 
     background-color: rgb(192, 218, 253);
     margin: 10px;
-    height: fit-content;
-    width: 700px;
+    height: 510px;
+    width: 800px;
     border-radius: 15px;
+    display: inline-block;
+
+}
+hr{
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 0%;
 }
 
 #p1{
     display: flex;
-    margin-left: 35px; 
+    margin-left: 15px; 
     float: left;  
 }
 #p2{
@@ -71,25 +84,29 @@ body{
 }
 #p3{
     display: flex;
-    margin-left: 160px;
+    margin-left: 210px;
     height: 0%;
     width: 0%; 
     float: left;    
 }
 #p4{
     display: flex;
-    margin-left: 360px; 
+    margin-left: 520px; 
 }
 
 #status{
    text-align: left;
-   margin-left: 30px; 
+   margin-left: 30px;
 }
-#todos{
+.subt{
     margin-left: 300px;
-    
+    margin-top: 30px;
     height: 10%;
     width: 60%;
+}
+.titulos{
+    display: flex;
+    
 }
 .divLinha{
     margin: 7px;
@@ -100,12 +117,8 @@ body{
     padding: 10px;
 }
 #s3{
-    background-color: rgb(192, 218, 253);
-    text-align: start;
-    margin: 10px;
-    height: 310px;
-    width: 1200px;
-    border-radius: 15px;
+    display: flex;
+    
 }
 #recom{
     line-height: 1.5em;
@@ -156,7 +169,7 @@ body{
    border-radius: 10%;
    width: 140px;
    height: 40px;
-   border-color: rgb(55, 202, 55);
+   border: 0;
 }
 #nega{
     background-color: rgb(219, 40, 40);
@@ -164,22 +177,23 @@ body{
     border-radius: 10%;
     width: 140px;
     height: 40px;
-    border-color: rgb(219, 40, 40);
+    border: 0;
 }
 #analise{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 187, 0);
     color: white;
     border-radius: 10%;
     width: 140px;
     height: 40px;
-    border-color: rgb(255, 230, 0)
+    border: 0;
 }
 #s4{
     background-color: rgb(192, 218, 253);
     margin: 10px;
-    height: fit-content;
-    width: 700px;
+    height: 510px;
+    width: 800px;
     border-radius: 15px;
+    display: inline-block;
 }
 #msg1{
     text-align: start;
@@ -193,44 +207,70 @@ body{
     color: black;
 }
 
-#s5{
-    background-color: rgb(192, 218, 253);
-    text-align: start;
-    margin: 10px;
-    height: 310px;
-    width: 1200px;
-    border-radius: 15px;
-}
-
-#s6{
-    background-color: rgb(192, 218, 253);
-    margin: 10px;
-    height: fit-content;
-    width: 700px;
-    border-radius: 15px;
-}
-#mate2{
-    display: flex;
-    justify-content: space-around;
-    margin: 5px;
-    border: 70px;
-    height: 50%;
-    width: 50%;
-    align-content: stretch;
-}
-#mate2 img{
-    display: flex;
-    margin: 10px;
-    border: 10px;
-    height: 50%;
-    width: 80%;
-    align-content: stretch;
-    border: 8px solid white;
-    border-color: white;
-}
-
 .homem{
     height: 60px;
     width: 60px;
     border-radius: 100%;
+}
+
+#s5{
+    display: flex;
+
+}
+#s6{
+    background-color: rgb(192, 218, 253);
+    margin: 10px;
+    height: 510px;
+    width: 800px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.matei img{
+    display: flex;
+    margin: 70px;
+    border: 30px;
+    height: 55%;
+    width: 55%;
+    align-content: stretch;
+    border: 8px solid white;
+    border-color: white;
+}
+#imama{
+    display: flex;
+    margin: 70px;
+    border: 30px;
+    height: 65%;
+    width: 65%;
+    align-content: stretch;
+    border: 8px solid white;
+    border-color: white;
+}
+.junto{
+    border-radius: 5%;
+    text-align: center;
+    background-color: white;
+    height: 310px;
+    width: 180px;
+    padding: 0px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.junto2{
+    border-radius: 5%;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    padding: 0px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
 }

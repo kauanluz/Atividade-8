@@ -17,11 +17,15 @@ hr{
     border-color: rgb(207, 207, 207);
     border-style: double;
 }
-#t1{
+#navi{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 #navi{
     display: flex;
     margin-left: 20px;
+}
+#rep{
+    margin-left: 10px;
+    margin-top: 10px;
 }
