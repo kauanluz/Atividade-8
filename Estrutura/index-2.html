@@ -14,25 +14,25 @@
 </header>
 <section class="botoes">
     <button>&#128190; Save</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>&#10060; Cancel</button>
     <button>&#128394; Edit</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>&#128190; Save Draft</button>
     <button>Load Draft</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>&#128260;</button>
     <button>&#11013; Undo</button>
     <button>&#10145; Redo</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>Check</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>&#8863;</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>&#9704;</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>&#11027;</button>
-    <hr width="1" size="40" class="vertical">
+    <hr width="1" size="40" id="vertical">
     <button>Additional Functions &#8690;</button>
 </section>
 <section>
@@ -48,25 +48,148 @@
                 <button>&#128209;New</button>
                 <button>&#128465;</button>
                 <button>&#128196;</button>
-                <hr width="1" size="40" class="vertical">
+                <hr width="1" size="40" id="vertical">
                 <button>Up</button>
                 <button>Down</button>
                 <button>&#128295;</button>
             </div>
+                <table>
+                    <tr>
+                        <th>Page Type</th>
+                        <th>Page Id</th>
+                        <th>Title</th>
+                    </tr>
+                      <tr>
+                        <td>Initial Page</td>
+                        <td>INIT</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Main Page</td>
+                        <td>Main</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Main Page</td>
+                        <td>Main_Fast_El</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Main Page</td>
+                        <td>Main_Fast_El</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>ACT_LIST</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>NOTE_HLT</td>
+                        <td>$OTR:/BOFU</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>SEC_FILING_R</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>SEC_FILING_O</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>REPACT_NOTE</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                      <tr>
+                        <td>Dialog Box</td>
+                        <td>REPACT_ATF</td>
+                        <td>$OTR:/SCMT</td>
+                      </tr>
+                </table>
+        </div>
+        <hr width="10" size="900" id="vertical2">
+        <section>
+            <div id="overview">
+                <div id="over">
+                    <button id="setinha">&#9660;</button>
+                    <h2>Overview page Schema</h2>
+                    <p class="lado">Toolbar Schema</p>
+                    <P class="lado">Wire Schema</P>
+                </div>
+                <hr id="divisao-azul">
+                    <section class="botoes">
+                    <button>Page Master Area</button>
+                    <button>Section</button>
+                    <button>UIBB</button>
+                    <button>&#128465;</button>
+                    <button>Up</button>
+                    <button>Down</button>
+                </section>
+                <table>
+                    <tr>
+                        <th>Element</th>
+                        <th>Component</th>
+                        <th>Config ID</th>
+                        <th>Window Name</th>
+                    </tr>
+                    <tr>
+                        <td>Section:SECTION_1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>UIBB:$OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_FORM_UIBB_GL2</td>
+                        <td>/SCMTMS/WDCC_FWO_GEN</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+                    <tr id="azul">
+                        <td>UIBB:$OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_FORM_UIBB_GL2</td>
+                        <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td>UIBB:$OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td>UIBB:$OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_TREE_UIBB</td>
+                        <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                        <td>TREE_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td>UIBB:$OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TMC_CHARGES_TA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                </table> 
+                <hr>   
+            </div>
             <div>
+                <div id="attributes">
+                    <div id="atri">
+                        <h2 id="titulo">Attributes of UIBB: $OTR:/SCSCMTMS/UI_CMN/ADM_INFO</h2>
+                        <button>Finqal Flgs</button>
+                    </div>
+                    <hr id="divisao-azul">
+                </div>
             </div>
-        </div>
-        <hr width="10" size="400" class="vertical2">
-        <div id="overview">
-            <div id="over">
-                <button id="setinha">&#9660;</button>
-                <h2>Overview page Schema</h2>
-                <p class="lado">Toolbar Schema</p>
-                <P class="lado">Wire Schema</P>
-                <P class="ladopasta2">&#128193;</P>
-            </div>
-            <hr id="divisao-azul">
-        </div>
+        </section>
     </div>
 </section>
 </body>

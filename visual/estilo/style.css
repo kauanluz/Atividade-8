@@ -99,13 +99,14 @@
     display: flex;
     margin-left: 520px; 
 }
-
-#status{
-   text-align: left;
-   margin-left: 30px;
-}
 .subt{
     margin-left: 300px;
+    margin-top: 30px;
+    height: 10%;
+    width: 60%;
+}
+.subt2{
+    margin-left: 570px;
     margin-top: 30px;
     height: 10%;
     width: 60%;
@@ -269,7 +270,7 @@
 .junto2{
     border-radius: 5%;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 200px;
     width: 150px;
     padding: 0px;
@@ -280,7 +281,16 @@
     font-size: 12px;
     color: black;
 }
+.linhaStatus{
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    color: black;
+    height: 90px;    
+}
+
 /*PARTE 2*/
+
 #ind2{
     background-color: rgb(207, 207, 207);
 }
@@ -366,17 +376,36 @@ button{
     margin-right: 20px;
 
 }
-.vertical{
+#vertical{
     margin-left: 3px;
     margin-right: 3px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
-.vertical2{
+#vertical2{
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
     background-color: rgb(201, 201, 201);
     border-color: rgb(214, 214, 214);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+#azul{
+    background-color: rgba(0, 183, 255, 0.425);
+}
+#atri{
+    display: flex;
 }
