@@ -247,8 +247,8 @@
     display: flex;
     margin: 70px;
     border: 30px;
-    height: 65%;
-    width: 65%;
+    height: 85%;
+    width: 85%;
     align-content: stretch;
     border: 8px solid white;
     border-color: white;
@@ -288,7 +288,43 @@
     color: black;
     height: 90px;    
 }
-
+#redon{
+    border-radius: 100%;
+    background-color: rgb(30, 255, 0);
+    height: 60;
+    width: 60;
+    text-align: center;
+    font-size: 20;
+}
+#redon2{
+    border-radius: 100%;
+    background-color: rgb(251, 255, 0);
+    height: 60;
+    width: 60;
+    text-align: center;
+    font-size: 20;
+}
+#redon3{
+    border-radius: 100%;
+    background-color: #0f2396;
+    height: 60;
+    width: 60;
+    text-align: center;
+    color: white;
+    font-size: 20;
+}
+.verde {
+    height: 2px;
+    background-color: #57BA69;
+    width: 15%;
+    margin-top: 30px;
+}
+.azul {
+    height: 2px;
+    background-color: #0f2396;
+    width: 15%;
+    margin-top: 30px;
+}
 /*PARTE 2*/
 
 #ind2{
@@ -308,6 +344,7 @@
     display: flex;
     border-color: rgb(207, 207, 207);
     border-style: double;
+    width: 100%;
 }
 button{
     margin-left: 2px;
@@ -344,11 +381,12 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     display:flex;
-    margin-top: 52px;
+    margin-top: 15px;
 }
 #overview{
     background-color:  rgb(233, 233, 233);
     width: 100%;
+    padding-right: 710;
 }
 .flex{
     display: flex;
@@ -408,4 +446,42 @@ table {
 }
 #atri{
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tab{
+    width: 100%;
+}
+form{
+    display: flex;
+}
+.form1{
+    padding-left: 190px;
+    padding-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.form2{
+    padding-left: 400px;
+    padding-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+input{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+#fin{
+    margin-left: 63%;
 }
