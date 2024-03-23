@@ -113,6 +113,7 @@
 }
 .titulos{
     display: flex;
+
     
 }
 .divLinha{
@@ -324,6 +325,12 @@
     background-color: #0f2396;
     width: 15%;
     margin-top: 30px;
+}
+.subt2{
+    margin-left: 1400;
+}
+.subt3{
+    margin-left: 600;
 }
 /*PARTE 2*/
 
