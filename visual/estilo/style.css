@@ -357,7 +357,7 @@ button{
     margin-left: 2px;
     margin-right: 2px;
     height: 40px;
-    width: 100px;
+    width: 150px;
     border-radius: 0px;
     border: 10px;
 }
@@ -482,13 +482,13 @@ form{
 label{
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 35px;
+    font-size: 30px;
 }
 input{
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 15px;
 }
 #fin{
-    margin-left: 63%;
+    margin-left: 45%;
 }
